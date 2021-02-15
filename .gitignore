@@ -1,0 +1,10 @@
+.DS_Store
+Thumbs.db
+node_modules/
+dist/
+false/
+yarn-error.log
+yarn.lock
+.npm
+.vscode/
+.idea/workspace.xml

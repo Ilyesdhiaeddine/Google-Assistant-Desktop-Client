@@ -1,0 +1,20 @@
+language: node_js
+
+node_js:
+  - 12.13.1
+
+cache:
+  npm: true
+
+os:
+  - windows
+  - osx
+  - linux
+
+install:
+  - npm ci
+
+script:
+  - npm run dist
+
+if: tag IS blank
